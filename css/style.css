@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+    background-image: url('../img/portfolio6.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    font-size: 22px; 
+    font-style: italic; 
+    font-weight: 700;
+}
+ /* MENU */
+
+
+ nav ul li{
+     display: inline;
+     list-style: none;
+     margin: 10px;
+ }
+
+ a:visited, a:link{
+     text-decoration: none;
+     color: black;
+ }
+
+.main{
+    font-size: 40px;  
+    margin-left: 0%;
+    text-align: center; 
+    margin-top: 50 px; 
+    height: 500px;   
+}
+
+/*  Icons setting */
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+/* links */
+
+.link, li{
+    line-height: 3rem;
+    list-style-type: none;
+
+}
+
+/* Projects display */
+.col-pro {
+    display: flex;
+}
+.projects {
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.projects:hover {
+    transition: 2s;
+    width: 210px;
+    height: 160px;
+    box-shadow: 2px gray;
+}
+

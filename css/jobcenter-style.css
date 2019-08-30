@@ -1,0 +1,18 @@
+body{
+    background-image: url("../img/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    color: bisque;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+    border-radius: 25%;
+
+}
